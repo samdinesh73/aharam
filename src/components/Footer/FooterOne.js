@@ -19,7 +19,7 @@ export default function FooterOne({ classname }) {
                     <Image src={'/images/logo.svg'} width={5000} height={5000} alt="logo" className="w-[148px]" />
                   )}
                 </Link>
-                <div className="caption1">Welcome to Bytewave! We provide diverse IT solutions with a team of experts. From IT management to cloud solutions, we have you covered. </div>
+                <div className="caption1">Welcome to Digital marketing Agncy company description</div>
                 <div className="caption1">Mon - Fri: 9:00 - 19:00 <br />Closed on Weekends</div>
               </div>
             </div>
@@ -28,7 +28,7 @@ export default function FooterOne({ classname }) {
                 <div className="footer-nav-item">
                   <div className="item-heading text-button">Company</div>
                   <ul className="list-nav mt-3">
-                    <li className="mt-2">
+                    {/* <li className="mt-2">
                       <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/about-us">About us</Link>
                     </li>
                     <li className="mt-2">
@@ -45,13 +45,13 @@ export default function FooterOne({ classname }) {
                     </li>
                     <li className="mt-2">
                       <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contact</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="footer-nav-item">
                   <div className="item-heading text-button">Solutions</div>
                   <ul className="list-nav mt-3">
-                    {serviceData.slice(0, 6).map(item => (
+                    {/* {serviceData.slice(0, 6).map(item => (
                       <li className="mt-2" key={item.id}>
                         <Link className={`caption1 hover-underline ${classname && 'underline-white'}`}
                           href={process.env.PUBLIC_URL + "/services/[slug]"}
@@ -61,7 +61,7 @@ export default function FooterOne({ classname }) {
                         >
                           {item.title}</Link>
                       </li>
-                    ))}
+                    ))} */}
                   </ul>
                 </div>
               </div>

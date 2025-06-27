@@ -32,12 +32,12 @@ export default function MenuFunctionIcons(props) {
               <span className="icon bg-white text-blue w-8 h-8 flex items-center justify-center rounded-full">
                 <Icon.PhoneCall className="text-2xl flex-shrink-0" />
               </span>
-              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">1-333-345-6868</span>
+              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">+91 73589 61672</span>
             </div>
           )}
           <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link>
         </div>
-        <div className="list__icons flex items-center">
+        {/* <div className="list__icons flex items-center">
           {!hide.includes("search") && (
             <button
               className="menu-icon -search flex-shrink-0"
@@ -76,7 +76,7 @@ export default function MenuFunctionIcons(props) {
           {!hide.includes("button") && (
             <Link href={'/pages/contact-us'} className="button-main max-sm:hidden ml-4">Get A quote</Link>
           )}
-        </div>
+        </div> */}
       </div>
       {/* Search input */}
       <SearchBox showSearch={showSearch} setShowSearch={setShowSearch} />
