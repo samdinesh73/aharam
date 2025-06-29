@@ -5,7 +5,7 @@ import GlobalProvider from "./GlobalProvider";
 const plusJakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dinesh Kumar Digital Marketing Agency",
+  title: "Aharam Digital Marketing Agency",
   description: "Developed by Dinesh for Digital marketing",
 };
 
