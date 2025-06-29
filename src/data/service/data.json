@@ -180,7 +180,6 @@
         "desc": "Creating valuable and relevant content to attract and engage your target audience, building trust and authority."
     },
     
-  [
   {
     "id": "31",
     "icon": "icon-lightbulb",
@@ -201,7 +200,7 @@
   },
   {
     "id": "34",
-    "icon": "icon-cloud-dots",
+    "icon": "icon-speaker",
     "title": "Marketing & Promotion",
     "desc": "Promoting your brand across channels through compelling marketing campaigns and creatives."
   },
@@ -213,25 +212,25 @@
   },
   {
     "id": "36",
-    "icon": "icon-hand-touch",
+    "icon": "icon-layout",
     "title": "Collateral Design",
     "desc": "Designing all necessary branded materials like flyers, banners, and presentations."
   },
   {
     "id": "37",
-    "icon": "YoutubeLogo",
+    "icon": "icon-video-play",
     "title": "Video & Ad Film",
     "desc": "Creating engaging video content and promotional ad films that drive brand awareness."
   },
   {
     "id": "38",
-    "icon": "icon-device-cloud",
+    "icon": "icon-monitor",
     "title": "UI/UX Web Design",
     "desc": "Designing intuitive, user-friendly interfaces that enhance digital experience and usability."
   },
   {
     "id": "39",
-    "icon": "icon-device-sync",
+    "icon": "icon-code",
     "title": "Custom Web Development",
     "desc": "Building responsive, scalable, and tailored websites aligned with your business goals."
   },
@@ -243,13 +242,13 @@
   },
   {
     "id": "41",
-    "icon": "GraduationCap",
+    "icon": "icon-cart",
     "title": "E-Commerce Solutions",
     "desc": "Creating e-commerce platforms that drive online sales and provide seamless shopping experiences."
   },
   {
     "id": "42",
-    "icon": "icon-user-sync",
+    "icon": "icon-wordpress",
     "title": "WordPress Development",
     "desc": "Flexible WordPress websites tailored to content-driven or business-centric needs."
   },
@@ -267,37 +266,37 @@
   },
   {
     "id": "45",
-    "icon": "icon-sms",
+    "icon": "icon-share-alt",
     "title": "Social Media Management",
     "desc": "Building and managing your social presence to engage users and grow your audience."
   },
   {
     "id": "46",
-    "icon": "icon-chart",
+    "icon": "icon-search",
     "title": "SEO (Search Engine Optimization)",
     "desc": "Optimizing your site for search engines to increase visibility and organic traffic."
   },
   {
     "id": "47",
-    "icon": "icon-notification",
+    "icon": "icon-chart-line",
     "title": "SEM (Search Engine Marketing)",
     "desc": "Running paid campaigns on platforms like Google to boost your reach and conversions."
   },
   {
     "id": "48",
-    "icon": "icon-target-chart",
+    "icon": "icon-bulb-dollar",
     "title": "Lead Generation",
     "desc": "Creating and executing lead-gen campaigns to capture and convert potential customers."
   },
   {
     "id": "49",
-    "icon": "icon-coin-user",
+    "icon": "icon-google",
     "title": "Google Ads",
     "desc": "Targeted ad campaigns on Google to drive quality traffic and measurable results."
   },
   {
     "id": "50",
-    "icon": "icon-phone-sync",
+    "icon": "icon-whatsapp",
     "title": "WhatsApp Portfolio",
     "desc": "Curated business portfolios shared over WhatsApp for direct engagement and outreach."
   },
@@ -307,8 +306,6 @@
     "title": "Google My Business",
     "desc": "Optimizing your local presence with GMB for better visibility in local search."
   }
-]
-
 
 
 ]
