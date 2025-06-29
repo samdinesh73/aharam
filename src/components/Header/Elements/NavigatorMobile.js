@@ -3,7 +3,7 @@ import { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 
-import menuData from "../../../data/header/navigation.json";
+import menuData from "../../../data/header/aharamnavi.json";
 
 export default function Navigator() {
   const [dropdownItem, setDropdownItem] = useState();

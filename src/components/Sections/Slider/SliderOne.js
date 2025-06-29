@@ -10,11 +10,11 @@ export default function SliderOne({ data, className }) {
         <div className="flex max-xl:flex-col-reverse gap-8">
           <div className="xl:w-1/3 w-full xl:pr-[15px]">
             <div className="text">
-              <h2 className="heading2 xl:pr-[55px]">IT services for small to mid-Sized companies</h2>
-              <div className="body2 mt-4">We provide custom software solutions for any industry. Creating high - value software and technology for your business.</div>
+              <h2 className="heading2 xl:pr-[55px]">Grow Faster. Smarter. Digital First</h2>
+              <div className="body2 mt-4">We help brands dominate online with powerful marketing & growth strategies</div>
             </div>
             <div className="block-button xl:mt-10 mt-6 flex gap-4 flex-wrap">
-              <Link className="button-main" href="/company/about-us">Get a Free Assessment</Link>
+              <Link className="button-main" href="/company/about-us">Get free Consultation</Link>
               <Link className="button-main bg-grey" href="/pages/contact-us">Contact</Link>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import classNames from "classnames";
-import menuData from "@/data/header/newnavi.json";
+import menuData from "@/data/header/aharamnavi.json";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { usePathname } from "next/navigation";
 import { convertToSlug } from "@/common/utils"
@@ -30,7 +30,7 @@ export default function Navigator({ disableSubmenu, className }) {
           </li>
         );
       }
-      if (item.title === "Solutions") {
+      if (item.title === "Services") {
         return (
           <li key={index} className={`${pathname.includes('/services/') ? 'active' : ''}`}>
             <Link href={process.env.PUBLIC_URL + item.to}>
@@ -40,7 +40,7 @@ export default function Navigator({ disableSubmenu, className }) {
             </Link>
             <div className="dropdown-menu -wide flex">
               <div className="left w-3/4 pr-[15px]">
-                <div className="service-cate heading6">IT Solutions</div>
+                <div className="service-cate heading6">Digital Marketing</div>
                 <ul className="grid grid-cols-3 gap-5 gap-y-2.5 mt-2">
                   {item.subMenu.slice(0, 6).map((i, index) => (
                     <li key={index} className={`${pathname === i.to ? 'active' : ''}`}>
@@ -56,6 +56,21 @@ export default function Navigator({ disableSubmenu, className }) {
                   ))}
                 </ul>
                 <div className="service-cate heading6 mt-5">Digital Agency</div>
+                <ul className="grid grid-cols-3 gap-5 gap-y-2.5 mt-2">
+                  {item.subMenu.slice(6, 12).map((i, index) => (
+                    <li key={index} className={`${pathname === i.to ? 'active' : ''}`}>
+                      <Link
+                        className={`flex items-center gap-2`}
+                        href={process.env.PUBLIC_URL + "/services/[slug]"}
+                        as={process.env.PUBLIC_URL + "/services/" + convertToSlug(i.title)}
+                      >
+                        <span className={`${i.icon} text-blue text-2xl flex-shrink-0`}></span>
+                        <span>{i.title}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <div className="service-cate heading6 mt-5">Branding</div>
                 <ul className="grid grid-cols-3 gap-5 gap-y-2.5 mt-2">
                   {item.subMenu.slice(6, 12).map((i, index) => (
                     <li key={index} className={`${pathname === i.to ? 'active' : ''}`}>

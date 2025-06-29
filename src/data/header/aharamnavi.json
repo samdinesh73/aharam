@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Home",
+    "to": "#"
+  },
+  {
+    "title": "Services",
+    "to": "",
+    "subMenu": [
+      {
+        "title": "Social Media Management",
+        "to": "/services/social-media-management",
+        "icon": "icon-phone-sync"
+      },
+      {
+        "title": "SEO",
+        "to": "/services/seo",
+        "icon": "icon-user-sync"
+      },
+      {
+        "title": "SEM",
+        "to": "/services/sem",
+        "icon": "icon-device-cloud"
+      },
+      {
+        "title": "Lead Generation",
+        "to": "/services/lead-generation",
+        "icon": "icon-cloud-dots"
+      },
+      {
+        "title": "Google My Business",
+        "to": "/services/google-my-business",
+        "icon": "icon-phone-cloud"
+      },
+      {
+        "title": "Google Ads",
+        "to": "/services/google-ads",
+        "icon": "icon-device-sync"
+      },
+      {
+        "title": "UI/UX Web Design",
+        "to": "/services/ui-ux-web-design",
+        "icon": "icon-coin-user"
+      },
+      {
+        "title": "Custom Web Development",
+        "to": "/services/custom-web-development",
+        "icon": "icon-user-time"
+      },
+      {
+        "title": "Web Applications",
+        "to": "/services/web-applications",
+        "icon": "icon-hand-up"
+      },
+      {
+        "title": "E-commerce Solutions",
+        "to": "/services/e-commerce-solutions",
+        "icon": "icon-device-cloud"
+      },
+      {
+        "title": "Wordpress Development",
+        "to": "/services/Wordpress-development",
+        "icon": "icon-target-chart"
+      },
+      {
+        "title": "Web Hosting & Maintanence",
+        "to": "/services/web-hosting-maintanence",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Brand Strategy",
+        "to": "/services/brand-strategy",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Logo Design",
+        "to": "/services/logo-design",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Brochure Design",
+        "to": "/services/brochure-design",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Marketing & Promotions",
+        "to": "/services/marketing-promotions",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Business Development",
+        "to": "/services/business-development",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Video & AD film",
+        "to": "/services/video-ad-film",
+        "icon": "icon-user-chart"
+      }
+    ]
+  },
+  {
+    "title": "About Us",
+    "to": "#!"
+  },
+  {
+    "title": "Clients",
+    "to": "#!"
+  },
+  {
+    "title": "Blog",
+    "to": "#!"
+  },
+  {
+    "title": "Contact Us",
+    "to": "#!"
+  }
+]

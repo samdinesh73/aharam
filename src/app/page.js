@@ -15,13 +15,22 @@ import testimonialData from "@/data/testimonial/data.json";
 import ContactOne from "@/components/Sections/Contact/ContactOne";
 
 export default function Home() {
+
+  function pickServicesById(ids, allServices) {
+  return allServices.filter(s => ids.includes(Number(s.id)));
+}
+
+// Usage
+
+
   return (
     <>
       <LayoutOne className="-style-1">
         <SliderOne className="-style-1 lg:py-[60px] py-10" />
         <AboutOne />
-        <BenefitOne classname="lg:mt-20 sm:mt-14 mt-10" data={benefitData} start={0} limit={4} />
+        <BenefitOne classname="lg:mt-20 sm:mt-14 mt-10" data={benefitData} start={17} limit={20} />
         <SolutionOne data={serviceData} start={0} limit={6} />
+        <SolutionOne data={pickServicesById([31, 42, 45], serviceData)} />
         <ServiceOne data={serviceData} start={6} limit={16} />
         <CaseStudyOne classname={'bg-linear lg:mt-20 sm:mt-14 mt-10 lg:py-20 sm:py-14 py-10'} data={caseStudyData} start={0} limit={5} />
         <BannerOne />
