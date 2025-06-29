@@ -55,7 +55,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     </li>
                   ))}
                 </ul>
-                <div className="service-cate heading6 mt-5">Digital Agency</div>
+                <div className="service-cate heading6 mt-5">Web Development</div>
                 <ul className="grid grid-cols-3 gap-5 gap-y-2.5 mt-2">
                   {item.subMenu.slice(6, 12).map((i, index) => (
                     <li key={index} className={`${pathname === i.to ? 'active' : ''}`}>
@@ -72,7 +72,7 @@ export default function Navigator({ disableSubmenu, className }) {
                 </ul>
                 <div className="service-cate heading6 mt-5">Branding</div>
                 <ul className="grid grid-cols-3 gap-5 gap-y-2.5 mt-2">
-                  {item.subMenu.slice(6, 12).map((i, index) => (
+                  {item.subMenu.slice(12, 18).map((i, index) => (
                     <li key={index} className={`${pathname === i.to ? 'active' : ''}`}>
                       <Link
                         className={`flex items-center gap-2`}
@@ -89,18 +89,18 @@ export default function Navigator({ disableSubmenu, className }) {
               <div className="right w-1/4 pl-[15px]">
                 <div className="content bg-linear rounded-lg p-6">
                   <div className="heading6">Explore All Services</div>
-                  <div className="caption1 text-surface1 mt-1">Unlocking the Full Spectrum of IT Solutions and Business Consulting for your needs</div>
+                  <div className="caption1 text-surface1 mt-1">Unlocking the full spectrum of Digital marketing,Book a Free consultation Today!</div>
                   <Link className="button-main text-button-sm mt-3" href="/services/service-detail">Explore Now</Link>
                   <div className="more-infor mt-8">
                     <div className="mail flex items-center">
                       <Icon.Envelope className="text-lg" />
-                      <div className="caption1 pl-2">hi.avitex@gmail.com</div>
+                      <div className="caption1 pl-2">support@aharam.com</div>
                     </div>
                     <div className="call flex items-center mt-3">
                       <span className="w-6 h-6 bg-blue flex items-center justify-center rounded-full flex-shrink-0">
                         <Icon.Phone weight="fill" className="text-sm text-white" />
                       </span>
-                      <div className="text-title pl-2">123 456 7890</div>
+                      <div className="text-title pl-2">+91 7358961672</div>
                     </div>
                     <div className="list-social flex items-center gap-2.5 mt-4">
                       <Link className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300" href="https://www.facebook.com/" target="_blank">

@@ -9,8 +9,8 @@ const ContactOne = ({ classname }) => {
                 <div className="lg:flex items-center justify-between">
                     <div className="content-main w-full xl:w-7/12 lg:w-1/2 text-white">
                         <span className="text-label tag text-white bg-blue">Contact us</span>
-                        <h3 className="heading3 mt-3">Free consultation - discover IT solutions for your business</h3>
-                        <p className="desc mt-6">Unlock the full potential of your business with our free consultation. Our expert team will assess your IT needs, recommend tailored solutions, and chart a path to success. Book your consultation now and take the first step towards empowering your business with cutting-edge technology.</p>
+                        <h3 className="heading3 mt-3">Free Consultation – Unleash Your Brand’s Digital Potential</h3>
+                        <p className="desc mt-6">Take your business to the next level with a free consultation from Aharam Digital Marketing Agency. Our digital experts will evaluate your online presence, understand your goals, and craft a customized marketing strategy to boost visibility, engagement, and conversions. Book your consultation today and start transforming your brand’s online journey.</p>
                         <div className="list-features mt-4 pb-6 border-b border-line">
                             <div className="item flex items-center">
                                 <Icon.Check className='text-xl' />
@@ -18,40 +18,42 @@ const ContactOne = ({ classname }) => {
                             </div>
                             <div className="item flex items-center mt-2">
                                 <Icon.Check className='text-xl' />
-                                <span className="body2 pl-3">Research and preparation by the IT services company</span>
+                                <span className="body2 pl-3"> Pre-consultation research & competitor analysis by our digital team</span>
                             </div>
                             <div className="item flex items-center mt-2">
                                 <Icon.Check className='text-xl' />
-                                <span className="body2 pl-3">Consultation to discuss technology solutions</span>
+                                <span className="body2 pl-3"> Strategy session to discuss your brand, goals, and marketing challenges</span>
                             </div>
                             <div className="item flex items-center mt-2">
                                 <Icon.Check className='text-xl' />
-                                <span className="body2 pl-3">Needs assessment for tailored solutions</span>
+                                <span className="body2 pl-3">Assessment of current digital channels and performance metrics</span>
                             </div>
                             <div className="item flex items-center mt-2">
                                 <Icon.Check className='text-xl' />
-                                <span className="body2 pl-3">Presentation of proposed solutions</span>
+                                <span className="body2 pl-3">Presentation of personalized digital marketing strategies (SEO, Social Media, PPC, Content, etc.)</span>
                             </div>
                             <div className="item flex items-center mt-2">
                                 <Icon.Check className='text-xl' />
-                                <span className="body2 pl-3">Project execution and ongoing support</span>
+                                <span className="body2 pl-3">Implementation roadmap and performance tracking setup
+
+</span>
                             </div>
                             <div className="item flex items-center mt-2">
                                 <Icon.Check className='text-xl' />
-                                <span className="body2 pl-3">Follow-up to evaluate effectiveness and satisfaction</span>
+                                <span className="body2 pl-3">Follow-up to measure results and ensure continued growth</span>
                             </div>
                         </div>
                         <div className="flex items-center mt-6">
                             <Icon.Envelope className="text-xl" />
-                            <span className="body2 pl-3">hi.avitex@gmail.com</span>
+                            <span className="body2 pl-3">hello@aharam.com</span>
                         </div>
                         <div className="flex items-center mt-2">
                             <Icon.PhoneCall className="text-xl" />
-                            <span className="body2 pl-3">1-333-345-6868</span>
+                            <span className="body2 pl-3">+91 9443818425</span>
                         </div>
                         <div className="flex items-center mt-2">
                             <Icon.MapPin className="text-xl" />
-                            <span className="body2 pl-3">101 E 129th St, East Chicago, IN 46312, US</span>
+                            <span className="body2 pl-3">3095, 1st Street , Near Anu Hospital, VOC Nagar , Thanjavur,Tamil Nadu 613007</span>
                         </div>
                         <Link href={'https://maps.app.goo.gl/NMPUkvGS3x2PC4eM7'} target='_blank' className='inline-block underline mt-2'>Open map</Link>
                     </div>
@@ -79,9 +81,9 @@ const ContactOne = ({ classname }) => {
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="cate">How can we help you?</label>
                                     <div className="select-block relative">
                                         <select className="w-full bg-white pl-4 pr-6 py-3 rounded border border-outline" name="form" id="cate">
-                                            <option value="Financial Planning">Financial Planning</option>
-                                            <option value="Business Planning">Business Planning</option>
-                                            <option value="Development Planning">Development Planning</option>
+                                            <option value="Financial Planning">Branding</option>
+                                            <option value="Business Planning">Digital Marketing</option>
+                                            <option value="Development Planning">Web Development</option>
                                         </select>
                                         <Icon.CaretDown className="absolute top-1/2 right-4 -translate-y-1/2 text-xl" />
                                     </div>

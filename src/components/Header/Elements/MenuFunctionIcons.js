@@ -32,7 +32,7 @@ export default function MenuFunctionIcons(props) {
               <span className="icon bg-white text-blue w-8 h-8 flex items-center justify-center rounded-full">
                 <Icon.PhoneCall className="text-2xl flex-shrink-0" />
               </span>
-              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">+91 73589 61672</span>
+              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">+91 94438 18425</span>
             </div>
           )}
           <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link>
@@ -52,7 +52,7 @@ export default function MenuFunctionIcons(props) {
           )} */}
           {!hide.includes("cart") && (
             <>
-              <button
+              {/* <button
                 className="menu-icon -cart flex-shrink-0"
                 onClick={(e) => {
                   e.preventDefault();
@@ -61,7 +61,7 @@ export default function MenuFunctionIcons(props) {
               >
                 <Icon.Handbag className="text-2xl" />
                 <span className="cart__quantity">{cartState.length}</span>
-              </button>
+              </button> */}
               <button
                 className="menu-icon -navbar flex-shrink-0"
                 onClick={(e) => {

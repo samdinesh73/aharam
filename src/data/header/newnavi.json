@@ -3,63 +3,110 @@
     "title": "Home",
     "to": "/",
     "subMenu": [
-      { "title": "Overview of Services", "to": "/#services" },
-      { "title": "Highlight Banners", "to": "/#banners" },
-      { "title": "Call to Action", "to": "/#cta" }
+     
     ]
   },
   {
     "title": "About",
     "to": "/about",
     "subMenu": [
-      { "title": "Company Introduction", "to": "/about#intro" },
-      { "title": "Mission & Vision", "to": "/about#mission-vision" },
-      { "title": "Our Team", "to": "/about#team" },
-      { "title": "Why Choose Us", "to": "/about#why-us" }
+
     ]
   },
   {
     "title": "Services",
     "to": "/services",
     "subMenu": [
+        
       {
-        "title": "Branding",
-        "to": "/services/branding",
-        "subMenu": [
-          { "title": "Brand Strategy", "to": "/services/branding/strategy" },
-          { "title": "Logo Design", "to": "/services/branding/logo" },
-          { "title": "Brochure Design", "to": "/services/branding/brochure" },
-          { "title": "Marketing & Promotion", "to": "/services/branding/promotion" },
-          { "title": "Business Development", "to": "/services/branding/business-dev" },
-          { "title": "Collateral Design", "to": "/services/branding/collateral" },
-          { "title": "Video & Ad Film", "to": "/services/branding/video" }
-        ]
+        "title": "Social Media Management",
+        "to": "/services/social-media-management",
+        "icon": "icon-phone-sync"
       },
       {
-        "title": "Web Development",
-        "to": "/services/web-development",
-        "subMenu": [
-          { "title": "UI/UX Design", "to": "/services/web-development/ui-ux" },
-          { "title": "Custom Development", "to": "/services/web-development/custom" },
-          { "title": "Web Applications", "to": "/services/web-development/apps" },
-          { "title": "E-Commerce Solutions", "to": "/services/web-development/ecommerce" },
-          { "title": "WordPress Development", "to": "/services/web-development/wordpress" },
-          { "title": "Business Networking Tools", "to": "/services/web-development/tools" },
-          { "title": "Web Hosting & Maintenance", "to": "/services/web-development/hosting" }
-        ]
+        "title": "SEO",
+        "to": "/services/seo",
+        "icon": "icon-user-sync"
       },
       {
-        "title": "Digital Marketing",
-        "to": "/services/digital-marketing",
-        "subMenu": [
-          { "title": "Social Media Management", "to": "/services/digital-marketing/social" },
-          { "title": "SEO", "to": "/services/digital-marketing/seo" },
-          { "title": "SEM", "to": "/services/digital-marketing/sem" },
-          { "title": "Lead Generation", "to": "/services/digital-marketing/lead-gen" },
-          { "title": "Google Ads", "to": "/services/digital-marketing/google-ads" },
-          { "title": "WhatsApp Portfolio", "to": "/services/digital-marketing/whatsapp" },
-          { "title": "Google My Business", "to": "/services/digital-marketing/gmb" }
-        ]
+        "title": "SEM",
+        "to": "/services/sem",
+        "icon": "icon-device-cloud"
+      },
+      {
+        "title": "Lead Generation",
+        "to": "/services/lead-generation",
+        "icon": "icon-cloud-dots"
+      },
+      {
+        "title": "Google My Business",
+        "to": "/services/google-my-business",
+        "icon": "icon-phone-cloud"
+      },
+      {
+        "title": "Google Ads",
+        "to": "/services/google-ads",
+        "icon": "icon-device-sync"
+      },
+      {
+        "title": "UI/UX Web Design",
+        "to": "/services/ui-ux-web-design",
+        "icon": "icon-coin-user"
+      },
+      {
+        "title": "Custom Web Development",
+        "to": "/services/custom-web-development",
+        "icon": "icon-user-time"
+      },
+      {
+        "title": "Web Applications",
+        "to": "/services/web-applications",
+        "icon": "icon-hand-up"
+      },
+      {
+        "title": "E-commerce Solutions",
+        "to": "/services/e-commerce-solutions",
+        "icon": "icon-device-cloud"
+      },
+      {
+        "title": "Wordpress Development",
+        "to": "/services/Wordpress-development",
+        "icon": "icon-target-chart"
+      },
+      {
+        "title": "Web Hosting & Maintanence",
+        "to": "/services/web-hosting-maintanence",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Brand Strategy",
+        "to": "/services/brand-strategy",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Logo Design",
+        "to": "/services/logo-design",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Brochure Design",
+        "to": "/services/brochure-design",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Marketing & Promotions",
+        "to": "/services/marketing-promotions",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Business Development",
+        "to": "/services/business-development",
+        "icon": "icon-user-chart"
+      },
+      {
+        "title": "Video & AD film",
+        "to": "/services/video-ad-film",
+        "icon": "icon-user-chart"
       }
     ]
   },
@@ -67,28 +114,21 @@
     "title": "Clients",
     "to": "/clients",
     "subMenu": [
-      { "title": "Client Logos / Testimonials", "to": "/clients/testimonials" },
-      { "title": "Case Studies", "to": "/clients/case-studies" },
-      { "title": "Industries Served", "to": "/clients/industries" }
+     
     ]
   },
   {
     "title": "Blog",
     "to": "/blog",
     "subMenu": [
-      { "title": "Digital Trends", "to": "/blog/digital-trends" },
-      { "title": "Marketing Tips", "to": "/blog/marketing-tips" },
-      { "title": "Tech Updates", "to": "/blog/tech-updates" },
-      { "title": "Branding Insights", "to": "/blog/branding-insights" }
+     
     ]
   },
   {
     "title": "Contact Us",
     "to": "/contact",
     "subMenu": [
-      { "title": "Contact Form", "to": "/contact#form" },
-      { "title": "Address & Map", "to": "/contact#map" },
-      { "title": "Phone, Email, Social Links", "to": "/contact#details" }
+     
     ]
   }
 ]

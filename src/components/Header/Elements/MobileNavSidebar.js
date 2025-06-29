@@ -36,7 +36,7 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
             </div>
             <NavigatorMobile />
             <div className="navigation-sidebar__footer">
-              <a className="navigation-sidebar__footer__auth">Login/Register</a>
+              <a className="navigation-sidebar__footer__auth">Contact</a>
             </div>
           </div>
         </CSSTransition>

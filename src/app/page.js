@@ -29,9 +29,9 @@ export default function Home() {
         <SliderOne className="-style-1 lg:py-[60px] py-10" />
         <AboutOne />
         <BenefitOne classname="lg:mt-20 sm:mt-14 mt-10" data={benefitData} start={17} limit={20} />
-        <SolutionOne data={serviceData} start={0} limit={6} />
-        <SolutionOne data={pickServicesById([31, 42, 45], serviceData)} />
-        <ServiceOne data={serviceData} start={6} limit={16} />
+        {/* <SolutionOne data={serviceData} start={0} limit={6} /> */}
+        <SolutionOne data={pickServicesById([31, 35, 38,40,45,46], serviceData)} />
+        <ServiceOne data={serviceData} start={31} limit={47} />
         <CaseStudyOne classname={'bg-linear lg:mt-20 sm:mt-14 mt-10 lg:py-20 sm:py-14 py-10'} data={caseStudyData} start={0} limit={5} />
         <BannerOne />
         <BrandOne classname={'bg-white lg:py-20 md:py-14 py-10'} />

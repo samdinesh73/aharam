@@ -101,7 +101,7 @@ export default function FooterOne({ classname }) {
           <div className="container">
             <div className="flex items-center sm:justify-between max-sm:flex-col gap-y-2 justify-center py-2 border-t border-outline">
               <div className="left-block flex items-center">
-                <div className="copy-right text-surface1 caption1">©2023 ByteWave. All Rights Reserved.</div>
+                <div className="copy-right text-surface1 caption1">©2025 Aharam. All Rights Reserved.</div>
               </div>
               <div className="nav-link flex items-center gap-2.5">
                 <Link className="text-surface1 caption1 hover-underline" href="#!">Terms Of Services</Link>
