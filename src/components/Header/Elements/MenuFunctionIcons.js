@@ -37,8 +37,8 @@ export default function MenuFunctionIcons(props) {
           )}
           <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link>
         </div>
-        {/* <div className="list__icons flex items-center">
-          {!hide.includes("search") && (
+        <div className="list__icons flex items-center">
+          {/* {!hide.includes("search") && (
             <button
               className="menu-icon -search flex-shrink-0"
               onClick={(e) => {
@@ -49,10 +49,10 @@ export default function MenuFunctionIcons(props) {
             >
               <Icon.MagnifyingGlass className="text-2xl" />
             </button>
-          )}
+          )} */}
           {!hide.includes("cart") && (
             <>
-              <button
+              {/* <button
                 className="menu-icon -cart flex-shrink-0"
                 onClick={(e) => {
                   e.preventDefault();
@@ -61,7 +61,7 @@ export default function MenuFunctionIcons(props) {
               >
                 <Icon.Handbag className="text-2xl" />
                 <span className="cart__quantity">{cartState.length}</span>
-              </button>
+              </button> */}
               <button
                 className="menu-icon -navbar flex-shrink-0"
                 onClick={(e) => {
@@ -76,12 +76,12 @@ export default function MenuFunctionIcons(props) {
           {!hide.includes("button") && (
             <Link href={'/pages/contact-us'} className="button-main max-sm:hidden ml-4">Get A quote</Link>
           )}
-        </div> */}
+        </div>
       </div>
       {/* Search input */}
-      <SearchBox showSearch={showSearch} setShowSearch={setShowSearch} />
+      {/* <SearchBox showSearch={showSearch} setShowSearch={setShowSearch} /> */}
       {/* Cart sidebar */}
-      <CartItemsSidebar showCart={showCart} setShowCart={setShowCart} />
+      {/* <CartItemsSidebar showCart={showCart} setShowCart={setShowCart} /> */}
       {/* Mobile navigation sidebar */}
       <MobileNavSidebar
         showMobileNav={showMobileNav}
